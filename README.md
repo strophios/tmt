@@ -1,8 +1,12 @@
 # tmt
 
 The aim of `tmt` is to provide some added functionality to the tm package by 
-facilitating the cleaning and analysis of messy text data. You can track and 
-contribute to development of `tmt` at https://github.com/schaunwheeler/tmt.
+facilitating the cleaning and analysis of messy text data. 
+
+# Linage 
+You can track and contribute to the original GitHub of `tmt` at https://github.com/schaunwheeler/tmt
+or the Forked GitHub which resolves the SnowballC dependencies at https://github.com/burcintamer/tmt.
+This Repositiory was created and renamed to avoid an R Package Name conflict with https://cran.rstudio.com/web/packages/tmt/
 
 ## Package text manipulation tools
 
@@ -21,7 +25,7 @@ Housecleaning:
 Preparation:
 
 * `MakeWordLists` take lists of sentiment-laden words from General Inquirer
-  (http://www.wjh.harvard.edu/~inquirer/), the list compiled by Finn Årup 
+  (http://www.wjh.harvard.edu/~inquirer/), the list compiled by Finn Ã…rup 
   (http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010), or the 
   list compiled by Bing Liu (http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.
   html#lexicon) - or from all three lists (the default). More information about
