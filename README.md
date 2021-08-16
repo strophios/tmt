@@ -1,12 +1,16 @@
-# tmt
-
-The aim of `tmt` is to provide some added functionality to the tm package by 
-facilitating the cleaning and analysis of messy text data. 
-
 # Linage 
 You can track and contribute to the original GitHub of `tmt` at https://github.com/schaunwheeler/tmt
-or the Forked GitHub which resolves the SnowballC dependencies at https://github.com/burcintamer/tmt.
-This Repositiory was created and renamed to avoid an R Package Name conflict with https://cran.rstudio.com/web/packages/tmt/
+or the Forked GitHub which resolves the SnowballC dependencies at https://github.com/burcintamer/tmt .
+This Repository was created and renamed to avoid a Name conflict with an R Package Published on CRAN: https://cran.rstudio.com/web/packages/tmt/
+This Repository is a forked branch of https://github.com/burcintamer/tmt
+
+
+# tmt_NM
+
+The aim of `tmt_NM` (previously named `tmt`) is to provide some added functionality to the tm package by 
+facilitating the cleaning and analysis of messy text data. 
+
+
 
 ## Package text manipulation tools
 
@@ -21,7 +25,8 @@ Housecleaning:
   some of that confusion:
   
     Sys.setlocale('LC_ALL', 'C')
-  
+
+
 Preparation:
 
 * `MakeWordLists` take lists of sentiment-laden words from General Inquirer

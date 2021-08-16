@@ -1,10 +1,10 @@
-Package: tmt
+Package: tmt_NM
 Title: Text Manipulation Toolkit
 Description: A package for cleaning and manipulating text documents
 Url: 
-Version: 0.01
-Date: 2013-14-2
-Maintainer: Schaun Wheeler <schaun.wheeler@gmail.com>
+Version: 0.02
+Date: 2021-08-16
+Maintainer: Michael Reynolds <michaelreynolds@optusnet.com.au>
 Author: Schaun Wheeler <schaun.wheeler@gmail.com>
 Depends: R (>= 2.13.0), tm, SnowballC
 License: GPL
