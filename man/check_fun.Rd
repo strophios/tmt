@@ -8,7 +8,7 @@
   This is an ineternal function used quickly identify words that are spelled correctly.
 }
 \usage{
-  split_words(inp)
+  splitWords(inp)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
