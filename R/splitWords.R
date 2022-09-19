@@ -1,5 +1,9 @@
 splitWords <- function(inp, ...) {
-    
+  
+  if(length(inp) == 0) {
+    return(inp)
+  }
+  
   inp_nchar <- nchar(inp)
   inp_check <- rep(FALSE, length(inp))
   out <- rep("", length(inp))
