@@ -8,7 +8,7 @@
   This is an ineternal function used to split unknown character strings into smaller pieces in an attempt to find recognizable words.
 }
 \usage{
-  split_words(inp)
+  splitWords(inp)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
