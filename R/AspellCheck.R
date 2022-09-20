@@ -79,9 +79,11 @@ aspellCheck <- function(input, output = "eval", sep = FALSE, keep_caps = TRUE,
         })
         
         if(split_missing) {
-          recs[sapply(recs, is.null)] <-  splitWords(
-            check$Original[sapply(recs, is.null)]
-            )
+          recs[sapply(recs, is.null)] <- tryCatch(splitWords(
+            check$Original[sapply(recs, is.null)]),
+            error = function(err) {
+              return(logical(0))
+            })
         } else {
         recs[sapply(recs, is.null)] <- check$Original[sapply(recs, is.null)]
         }
